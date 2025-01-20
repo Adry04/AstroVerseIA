@@ -1,0 +1,501 @@
+id_utente,macro_argomento,argomento_spazio,suggerito
+1,Finanza e Investimenti,Economia,TRUE
+2,Tecnologia e Ingegneria,Web Design,TRUE
+3,Hobby e Interessi Personali,Videogiochi,TRUE
+4,Hobby e Interessi Personali,Programmazione,TRUE
+5,Arte e Creatività,Filosofia,TRUE
+6,Tecnologia e Ingegneria,Letteratura,FALSE
+7,Scienze e Natura,Cucina,FALSE
+8,Scienze e Natura,Montagna,TRUE
+9,Arte e Creatività,Fotografia,TRUE
+10,Relazioni e Famiglie,Cucina,FALSE
+11,Tecnologia e Ingegneria,Teatro,FALSE
+12,Tecnologia e Ingegneria,Cloud Computing,TRUE
+13,Arte e Creatività,Matematica,FALSE
+14,Hobby e Interessi Personali,Cybersecurity,FALSE
+15,Tecnologia e Ingegneria,Geografia,TRUE
+16,Finanza e Investimenti,Biologia,FALSE
+17,Scienze e Natura,Videogiochi,FALSE
+18,Hobby e Interessi Personali,Filosofia,TRUE
+19,Hobby e Interessi Personali,Montagna,TRUE
+20,Relazioni e Famiglie,Scienze della terra,FALSE
+21,Tecnologia e Ingegneria,Programmazione,TRUE
+22,Tecnologia e Ingegneria,Musica,TRUE
+23,Finanza e Investimenti,Musica,FALSE
+24,Relazioni e Famiglie,Economia,FALSE
+25,Cultura e Società,Fisica,FALSE
+26,Tecnologia e Ingegneria,Letteratura,FALSE
+27,Tecnologia e Ingegneria,Web Design,TRUE
+28,Finanza e Investimenti,Montagna,FALSE
+29,Cultura e Società,Cucina,TRUE
+30,Tecnologia e Ingegneria,Teatro,FALSE
+31,Relazioni e Famiglie,Fotografia,TRUE
+32,Scienze e Natura,Economia,FALSE
+33,Hobby e Interessi Personali,Anime,TRUE
+34,Cultura e Società,Sport,TRUE
+35,Hobby e Interessi Personali,Sport,TRUE
+36,Relazioni e Famiglie,Teatro,TRUE
+37,Scienze e Natura,Montagna,TRUE
+38,Scienze e Natura,Sport,FALSE
+39,Finanza e Investimenti,Fisica,FALSE
+40,Salute e Benessere,Fotografia,FALSE
+41,Scienze e Natura,Musica,FALSE
+42,Salute e Benessere,Fisica,TRUE
+43,Cultura e Società,Cinema,TRUE
+44,Salute e Benessere,Matematica,FALSE
+45,Cultura e Società,Letteratura,TRUE
+46,Cultura e Società,Economia,TRUE
+47,Relazioni e Famiglie,Storia,TRUE
+48,Cultura e Società,Matematica,TRUE
+49,Cultura e Società,Scienze della terra,FALSE
+50,Scienze e Natura,Fotografia,TRUE
+51,Cultura e Società,Scienze della terra,TRUE
+52,Salute e Benessere,Intelligenza Artificiale,FALSE
+53,Scienze e Natura,Programmazione,FALSE
+54,Relazioni e Famiglie,Scienze della terra,FALSE
+55,Tecnologia e Ingegneria,Anime,FALSE
+56,Relazioni e Famiglie,Programmazione,FALSE
+57,Cultura e Società,Sport,TRUE
+58,Arte e Creatività,Storia,TRUE
+59,Scienze e Natura,Cybersecurity,FALSE
+60,Finanza e Investimenti,Fisica,FALSE
+61,Hobby e Interessi Personali,Cucina,TRUE
+62,Hobby e Interessi Personali,Programmazione,TRUE
+63,Tecnologia e Ingegneria,Programmazione,TRUE
+64,Arte e Creatività,Cybersecurity,FALSE
+65,Relazioni e Famiglie,Politica,TRUE
+66,Finanza e Investimenti,Cybersecurity,FALSE
+67,Relazioni e Famiglie,Crypto,FALSE
+68,Tecnologia e Ingegneria,Teatro,FALSE
+69,Scienze e Natura,Fotografia,FALSE
+70,Cultura e Società,Economia,TRUE
+71,Scienze e Natura,Cucina,FALSE
+72,Salute e Benessere,Giornalismo,FALSE
+73,Arte e Creatività,Chitarra,TRUE
+74,Relazioni e Famiglie,Intelligenza Artificiale,FALSE
+75,Hobby e Interessi Personali,Cinema,TRUE
+76,Arte e Creatività,Anime,TRUE
+77,Arte e Creatività,Intelligenza Artificiale,FALSE
+78,Cultura e Società,Geografia,TRUE
+79,Relazioni e Famiglie,Politica,TRUE
+80,Hobby e Interessi Personali,Politica,TRUE
+81,Cultura e Società,Sport,TRUE
+82,Scienze e Natura,Economia,FALSE
+83,Finanza e Investimenti,Crypto,TRUE
+84,Hobby e Interessi Personali,Web Design,TRUE
+85,Scienze e Natura,Economia,FALSE
+86,Hobby e Interessi Personali,Biologia,TRUE
+87,Scienze e Natura,Letteratura,FALSE
+88,Cultura e Società,Cybersecurity,FALSE
+89,Salute e Benessere,Data Science,FALSE
+90,Finanza e Investimenti,Montagna,FALSE
+91,Finanza e Investimenti,Letteratura,TRUE
+92,Finanza e Investimenti,Montagna,FALSE
+93,Arte e Creatività,Cloud Computing,FALSE
+94,Relazioni e Famiglie,Teatro,TRUE
+95,Finanza e Investimenti,Cucina,FALSE
+96,Arte e Creatività,Cucina,TRUE
+97,Scienze e Natura,Cloud Computing,FALSE
+98,Finanza e Investimenti,Intelligenza Artificiale,TRUE
+99,Scienze e Natura,Intelligenza Artificiale,FALSE
+100,Salute e Benessere,Teatro,FALSE
+101,Tecnologia e Ingegneria,Storia,FALSE
+102,Relazioni e Famiglie,Cucina,TRUE
+103,Salute e Benessere,Cloud Computing,FALSE
+104,Scienze e Natura,Anime,FALSE
+105,Finanza e Investimenti,Biologia,FALSE
+106,Scienze e Natura,Programmazione,FALSE
+107,Arte e Creatività,Cinema,TRUE
+108,Salute e Benessere,Fotografia,TRUE
+109,Scienze e Natura,Scienze della terra,TRUE
+110,Arte e Creatività,Giornalismo,TRUE
+111,Hobby e Interessi Personali,Web Design,TRUE
+112,Hobby e Interessi Personali,Scienze della terra,TRUE
+113,Hobby e Interessi Personali,Matematica,TRUE
+114,Hobby e Interessi Personali,Web Design,TRUE
+115,Tecnologia e Ingegneria,Data Science,TRUE
+116,Cultura e Società,Cybersecurity,FALSE
+117,Cultura e Società,Teatro,TRUE
+118,Tecnologia e Ingegneria,Matematica,TRUE
+119,Tecnologia e Ingegneria,Intelligenza Artificiale,TRUE
+120,Finanza e Investimenti,Biologia,FALSE
+121,Tecnologia e Ingegneria,Teatro,FALSE
+122,Scienze e Natura,Giornalismo,FALSE
+123,Hobby e Interessi Personali,Chitarra,TRUE
+124,Tecnologia e Ingegneria,Anime,FALSE
+125,Hobby e Interessi Personali,Storia,TRUE
+126,Cultura e Società,Letteratura,TRUE
+127,Scienze e Natura,Politica,FALSE
+128,Arte e Creatività,Giornalismo,FALSE
+129,Cultura e Società,Montagna,TRUE
+130,Arte e Creatività,Cucina,TRUE
+131,Arte e Creatività,Filosofia,FALSE
+132,Finanza e Investimenti,Biologia,FALSE
+133,Finanza e Investimenti,Fotografia,TRUE
+134,Cultura e Società,Politica,TRUE
+135,Arte e Creatività,Scienze della terra,FALSE
+136,Tecnologia e Ingegneria,Giornalismo,FALSE
+137,Tecnologia e Ingegneria,Data Science,TRUE
+138,Arte e Creatività,Sport,FALSE
+139,Finanza e Investimenti,Politica,TRUE
+140,Finanza e Investimenti,Cinema,TRUE
+141,Scienze e Natura,Scienze della terra,TRUE
+142,Arte e Creatività,Cinema,TRUE
+143,Relazioni e Famiglie,Scienze della terra,FALSE
+144,Hobby e Interessi Personali,Scienze della terra,TRUE
+145,Hobby e Interessi Personali,Cloud Computing,TRUE
+146,Hobby e Interessi Personali,Giornalismo,TRUE
+147,Arte e Creatività,Programmazione,FALSE
+148,Tecnologia e Ingegneria,Crypto,TRUE
+149,Salute e Benessere,Intelligenza Artificiale,FALSE
+150,Hobby e Interessi Personali,Fotografia,TRUE
+151,Hobby e Interessi Personali,Biologia,FALSE
+152,Relazioni e Famiglie,Musica,TRUE
+153,Tecnologia e Ingegneria,Filosofia,FALSE
+154,Relazioni e Famiglie,Cybersecurity,FALSE
+155,Tecnologia e Ingegneria,Cucina,FALSE
+156,Relazioni e Famiglie,Data Science,FALSE
+157,Finanza e Investimenti,Cinema,TRUE
+158,Finanza e Investimenti,Musica,TRUE
+159,Arte e Creatività,Giornalismo,TRUE
+160,Salute e Benessere,Anime,FALSE
+161,Cultura e Società,Sport,TRUE
+162,Salute e Benessere,Chitarra,FALSE
+163,Tecnologia e Ingegneria,Economia,FALSE
+164,Arte e Creatività,Intelligenza Artificiale,FALSE
+165,Relazioni e Famiglie,Filosofia,FALSE
+166,Hobby e Interessi Personali,Chitarra,TRUE
+167,Cultura e Società,Musica,TRUE
+168,Scienze e Natura,Cloud Computing,FALSE
+169,Finanza e Investimenti,Giornalismo,TRUE
+170,Relazioni e Famiglie,Scienze della terra,FALSE
+171,Salute e Benessere,Sport,TRUE
+172,Arte e Creatività,Storia,TRUE
+173,Finanza e Investimenti,Anime,FALSE
+174,Arte e Creatività,Musica,TRUE
+175,Cultura e Società,Filosofia,TRUE
+176,Salute e Benessere,Musica,TRUE
+177,Finanza e Investimenti,Programmazione,FALSE
+178,Scienze e Natura,Sport,TRUE
+179,Arte e Creatività,Musica,TRUE
+180,Scienze e Natura,Matematica,TRUE
+181,Salute e Benessere,Crypto,FALSE
+182,Salute e Benessere,Teatro,FALSE
+183,Arte e Creatività,Musica,TRUE
+184,Cultura e Società,Cucina,TRUE
+185,Hobby e Interessi Personali,Videogiochi,TRUE
+186,Scienze e Natura,Geografia,TRUE
+187,Relazioni e Famiglie,Cucina,TRUE
+188,Arte e Creatività,Biologia,FALSE
+189,Arte e Creatività,Filosofia,TRUE
+190,Relazioni e Famiglie,Fotografia,TRUE
+191,Finanza e Investimenti,Fisica,FALSE
+192,Relazioni e Famiglie,Fisica,FALSE
+193,Scienze e Natura,Letteratura,FALSE
+194,Salute e Benessere,Fisica,FALSE
+195,Arte e Creatività,Data Science,FALSE
+196,Hobby e Interessi Personali,Musica,TRUE
+197,Cultura e Società,Fotografia,TRUE
+198,Arte e Creatività,Teatro,TRUE
+199,Scienze e Natura,Fisica,TRUE
+200,Arte e Creatività,Storia,TRUE
+201,Salute e Benessere,Filosofia,TRUE
+202,Hobby e Interessi Personali,Web Design,TRUE
+203,Salute e Benessere,Chitarra,FALSE
+204,Cultura e Società,Programmazione,FALSE
+205,Tecnologia e Ingegneria,Giornalismo,FALSE
+206,Relazioni e Famiglie,Videogiochi,TRUE
+207,Salute e Benessere,Giornalismo,FALSE
+208,Arte e Creatività,Musica,TRUE
+209,Cultura e Società,Geografia,TRUE
+210,Hobby e Interessi Personali,Programmazione,TRUE
+211,Tecnologia e Ingegneria,Data Science,TRUE
+212,Cultura e Società,Filosofia,TRUE
+213,Tecnologia e Ingegneria,Giornalismo,FALSE
+214,Cultura e Società,Chitarra,TRUE
+215,Cultura e Società,Cucina,TRUE
+216,Hobby e Interessi Personali,Programmazione,TRUE
+217,Finanza e Investimenti,Data Science,TRUE
+218,Finanza e Investimenti,Intelligenza Artificiale,FALSE
+219,Finanza e Investimenti,Fotografia,TRUE
+220,Arte e Creatività,Cinema,TRUE
+221,Cultura e Società,Musica,FALSE
+222,Tecnologia e Ingegneria,Biologia,TRUE
+223,Finanza e Investimenti,Fisica,TRUE
+224,Tecnologia e Ingegneria,Teatro,FALSE
+225,Finanza e Investimenti,Anime,TRUE
+226,Cultura e Società,Crypto,TRUE
+227,Relazioni e Famiglie,Musica,TRUE
+228,Salute e Benessere,Anime,FALSE
+229,Cultura e Società,Data Science,TRUE
+230,Scienze e Natura,Cucina,FALSE
+231,Salute e Benessere,Web Design,FALSE
+232,Arte e Creatività,Fisica,FALSE
+233,Scienze e Natura,Cybersecurity,TRUE
+234,Salute e Benessere,Biologia,TRUE
+235,Cultura e Società,Politica,TRUE
+236,Relazioni e Famiglie,Fotografia,TRUE
+237,Cultura e Società,Data Science,TRUE
+238,Relazioni e Famiglie,Sport,TRUE
+239,Salute e Benessere,Musica,TRUE
+240,Salute e Benessere,Biologia,TRUE
+241,Tecnologia e Ingegneria,Filosofia,FALSE
+242,Hobby e Interessi Personali,Geografia,FALSE
+243,Salute e Benessere,Cucina,TRUE
+244,Cultura e Società,Intelligenza Artificiale,TRUE
+245,Arte e Creatività,Anime,TRUE
+246,Relazioni e Famiglie,Biologia,FALSE
+247,Finanza e Investimenti,Filosofia,FALSE
+248,Hobby e Interessi Personali,Politica,TRUE
+249,Arte e Creatività,Videogiochi,TRUE
+250,Tecnologia e Ingegneria,Videogiochi,TRUE
+251,Tecnologia e Ingegneria,Crypto,FALSE
+252,Cultura e Società,Programmazione,FALSE
+253,Hobby e Interessi Personali,Programmazione,TRUE
+254,Hobby e Interessi Personali,Matematica,FALSE
+255,Cultura e Società,Fisica,TRUE
+256,Hobby e Interessi Personali,Scienze della terra,FALSE
+257,Hobby e Interessi Personali,Anime,TRUE
+258,Hobby e Interessi Personali,Chitarra,TRUE
+259,Hobby e Interessi Personali,Musica,TRUE
+260,Finanza e Investimenti,Cucina,FALSE
+261,Hobby e Interessi Personali,Geografia,TRUE
+262,Finanza e Investimenti,Anime,FALSE
+263,Salute e Benessere,Matematica,TRUE
+264,Hobby e Interessi Personali,Programmazione,FALSE
+265,Salute e Benessere,Cybersecurity,FALSE
+266,Salute e Benessere,Web Design,FALSE
+267,Tecnologia e Ingegneria,Chitarra,FALSE
+268,Arte e Creatività,Biologia,FALSE
+269,Arte e Creatività,Teatro,TRUE
+270,Finanza e Investimenti,Crypto,TRUE
+271,Tecnologia e Ingegneria,Chitarra,FALSE
+272,Finanza e Investimenti,Crypto,TRUE
+273,Scienze e Natura,Musica,TRUE
+274,Cultura e Società,Programmazione,TRUE
+275,Scienze e Natura,Filosofia,TRUE
+276,Salute e Benessere,Politica,TRUE
+277,Arte e Creatività,Cybersecurity,FALSE
+278,Cultura e Società,Fotografia,TRUE
+279,Arte e Creatività,Economia,FALSE
+280,Finanza e Investimenti,Letteratura,FALSE
+281,Cultura e Società,Fisica,TRUE
+282,Finanza e Investimenti,Matematica,TRUE
+283,Scienze e Natura,Biologia,TRUE
+284,Scienze e Natura,Sport,TRUE
+285,Finanza e Investimenti,Giornalismo,TRUE
+286,Hobby e Interessi Personali,Geografia,FALSE
+287,Cultura e Società,Letteratura,TRUE
+288,Hobby e Interessi Personali,Montagna,TRUE
+289,Finanza e Investimenti,Chitarra,FALSE
+290,Scienze e Natura,Giornalismo,TRUE
+291,Finanza e Investimenti,Cloud Computing,TRUE
+292,Relazioni e Famiglie,Cloud Computing,FALSE
+293,Arte e Creatività,Cinema,TRUE
+294,Finanza e Investimenti,Matematica,FALSE
+295,Salute e Benessere,Storia,FALSE
+296,Relazioni e Famiglie,Data Science,FALSE
+297,Tecnologia e Ingegneria,Crypto,TRUE
+298,Finanza e Investimenti,Letteratura,FALSE
+299,Arte e Creatività,Anime,TRUE
+300,Arte e Creatività,Chitarra,TRUE
+301,Arte e Creatività,Videogiochi,TRUE
+302,Salute e Benessere,Cinema,TRUE
+303,Scienze e Natura,Chitarra,FALSE
+304,Salute e Benessere,Politica,FALSE
+305,Arte e Creatività,Storia,TRUE
+306,Hobby e Interessi Personali,Scienze della terra,TRUE
+307,Tecnologia e Ingegneria,Cybersecurity,TRUE
+308,Hobby e Interessi Personali,Cybersecurity,TRUE
+309,Scienze e Natura,Letteratura,TRUE
+310,Salute e Benessere,Geografia,FALSE
+311,Hobby e Interessi Personali,Data Science,TRUE
+312,Scienze e Natura,Letteratura,TRUE
+313,Relazioni e Famiglie,Scienze della terra,FALSE
+314,Tecnologia e Ingegneria,Economia,TRUE
+315,Relazioni e Famiglie,Economia,TRUE
+316,Salute e Benessere,Biologia,TRUE
+317,Cultura e Società,Fotografia,FALSE
+318,Cultura e Società,Data Science,FALSE
+319,Tecnologia e Ingegneria,Chitarra,FALSE
+320,Tecnologia e Ingegneria,Cloud Computing,TRUE
+321,Arte e Creatività,Montagna,TRUE
+322,Arte e Creatività,Cloud Computing,FALSE
+323,Hobby e Interessi Personali,Musica,TRUE
+324,Arte e Creatività,Programmazione,FALSE
+325,Scienze e Natura,Data Science,TRUE
+326,Tecnologia e Ingegneria,Anime,FALSE
+327,Finanza e Investimenti,Fotografia,FALSE
+328,Cultura e Società,Programmazione,TRUE
+329,Scienze e Natura,Biologia,TRUE
+330,Scienze e Natura,Fotografia,TRUE
+331,Salute e Benessere,Matematica,FALSE
+332,Cultura e Società,Programmazione,FALSE
+333,Relazioni e Famiglie,Programmazione,FALSE
+334,Salute e Benessere,Videogiochi,TRUE
+335,Salute e Benessere,Videogiochi,TRUE
+336,Scienze e Natura,Intelligenza Artificiale,TRUE
+337,Scienze e Natura,Data Science,FALSE
+338,Cultura e Società,Videogiochi,TRUE
+339,Tecnologia e Ingegneria,Geografia,TRUE
+340,Finanza e Investimenti,Letteratura,FALSE
+341,Salute e Benessere,Crypto,FALSE
+342,Relazioni e Famiglie,Storia,FALSE
+343,Salute e Benessere,Geografia,FALSE
+344,Tecnologia e Ingegneria,Programmazione,TRUE
+345,Scienze e Natura,Anime,FALSE
+346,Finanza e Investimenti,Economia,TRUE
+347,Tecnologia e Ingegneria,Programmazione,TRUE
+348,Hobby e Interessi Personali,Giornalismo,TRUE
+349,Salute e Benessere,Cloud Computing,FALSE
+350,Tecnologia e Ingegneria,Cybersecurity,TRUE
+351,Relazioni e Famiglie,Sport,TRUE
+352,Finanza e Investimenti,Data Science,TRUE
+353,Tecnologia e Ingegneria,Teatro,FALSE
+354,Cultura e Società,Cucina,TRUE
+355,Relazioni e Famiglie,Teatro,TRUE
+356,Finanza e Investimenti,Cinema,TRUE
+357,Cultura e Società,Sport,TRUE
+358,Salute e Benessere,Crypto,FALSE
+359,Hobby e Interessi Personali,Cinema,TRUE
+360,Hobby e Interessi Personali,Crypto,TRUE
+361,Cultura e Società,Crypto,FALSE
+362,Finanza e Investimenti,Musica,FALSE
+363,Tecnologia e Ingegneria,Cucina,FALSE
+364,Salute e Benessere,Politica,FALSE
+365,Tecnologia e Ingegneria,Data Science,FALSE
+366,Finanza e Investimenti,Musica,FALSE
+367,Scienze e Natura,Geografia,TRUE
+368,Scienze e Natura,Economia,TRUE
+369,Finanza e Investimenti,Fotografia,FALSE
+370,Salute e Benessere,Web Design,FALSE
+371,Cultura e Società,Politica,TRUE
+372,Arte e Creatività,Matematica,FALSE
+373,Finanza e Investimenti,Geografia,TRUE
+374,Tecnologia e Ingegneria,Videogiochi,TRUE
+375,Finanza e Investimenti,Matematica,TRUE
+376,Scienze e Natura,Storia,TRUE
+377,Relazioni e Famiglie,Letteratura,TRUE
+378,Salute e Benessere,Data Science,FALSE
+379,Cultura e Società,Intelligenza Artificiale,FALSE
+380,Cultura e Società,Matematica,FALSE
+381,Scienze e Natura,Videogiochi,FALSE
+382,Relazioni e Famiglie,Fisica,FALSE
+383,Salute e Benessere,Crypto,FALSE
+384,Scienze e Natura,Biologia,TRUE
+385,Scienze e Natura,Data Science,FALSE
+386,Arte e Creatività,Web Design,TRUE
+387,Salute e Benessere,Fisica,FALSE
+388,Arte e Creatività,Videogiochi,TRUE
+389,Salute e Benessere,Filosofia,TRUE
+390,Tecnologia e Ingegneria,Cucina,FALSE
+391,Scienze e Natura,Cloud Computing,FALSE
+392,Hobby e Interessi Personali,Sport,TRUE
+393,Tecnologia e Ingegneria,Sport,FALSE
+394,Relazioni e Famiglie,Filosofia,TRUE
+395,Tecnologia e Ingegneria,Montagna,FALSE
+396,Salute e Benessere,Economia,TRUE
+397,Tecnologia e Ingegneria,Cybersecurity,TRUE
+398,Relazioni e Famiglie,Teatro,TRUE
+399,Cultura e Società,Fotografia,TRUE
+400,Salute e Benessere,Fisica,FALSE
+401,Arte e Creatività,Cloud Computing,FALSE
+402,Cultura e Società,Matematica,TRUE
+403,Finanza e Investimenti,Biologia,FALSE
+404,Arte e Creatività,Fisica,FALSE
+405,Arte e Creatività,Cybersecurity,FALSE
+406,Scienze e Natura,Videogiochi,TRUE
+407,Relazioni e Famiglie,Cloud Computing,FALSE
+408,Finanza e Investimenti,Anime,FALSE
+409,Finanza e Investimenti,Sport,TRUE
+410,Finanza e Investimenti,Storia,TRUE
+411,Cultura e Società,Teatro,TRUE
+412,Relazioni e Famiglie,Filosofia,TRUE
+413,Arte e Creatività,Cybersecurity,FALSE
+414,Scienze e Natura,Matematica,TRUE
+415,Arte e Creatività,Programmazione,FALSE
+416,Scienze e Natura,Cucina,TRUE
+417,Finanza e Investimenti,Storia,TRUE
+418,Hobby e Interessi Personali,Politica,TRUE
+419,Hobby e Interessi Personali,Geografia,TRUE
+420,Relazioni e Famiglie,Musica,TRUE
+421,Hobby e Interessi Personali,Programmazione,TRUE
+422,Hobby e Interessi Personali,Politica,TRUE
+423,Cultura e Società,Crypto,TRUE
+424,Salute e Benessere,Biologia,TRUE
+425,Salute e Benessere,Geografia,TRUE
+426,Salute e Benessere,Filosofia,TRUE
+427,Scienze e Natura,Biologia,TRUE
+428,Cultura e Società,Biologia,TRUE
+429,Cultura e Società,Scienze della terra,TRUE
+430,Finanza e Investimenti,Musica,FALSE
+431,Tecnologia e Ingegneria,Fotografia,TRUE
+432,Scienze e Natura,Anime,TRUE
+433,Scienze e Natura,Crypto,FALSE
+434,Finanza e Investimenti,Montagna,FALSE
+435,Arte e Creatività,Intelligenza Artificiale,FALSE
+436,Scienze e Natura,Giornalismo,FALSE
+437,Hobby e Interessi Personali,Sport,TRUE
+438,Scienze e Natura,Politica,FALSE
+439,Hobby e Interessi Personali,Storia,TRUE
+440,Relazioni e Famiglie,Web Design,FALSE
+441,Hobby e Interessi Personali,Politica,TRUE
+442,Tecnologia e Ingegneria,Musica,FALSE
+443,Arte e Creatività,Musica,TRUE
+444,Tecnologia e Ingegneria,Teatro,FALSE
+445,Relazioni e Famiglie,Giornalismo,TRUE
+446,Scienze e Natura,Scienze della terra,TRUE
+447,Tecnologia e Ingegneria,Teatro,FALSE
+448,Salute e Benessere,Scienze della terra,FALSE
+449,Arte e Creatività,Giornalismo,TRUE
+450,Hobby e Interessi Personali,Fotografia,TRUE
+451,Hobby e Interessi Personali,Chitarra,TRUE
+452,Cultura e Società,Cloud Computing,FALSE
+453,Finanza e Investimenti,Crypto,TRUE
+454,Hobby e Interessi Personali,Intelligenza Artificiale,TRUE
+455,Tecnologia e Ingegneria,Cloud Computing,TRUE
+456,Tecnologia e Ingegneria,Filosofia,TRUE
+457,Finanza e Investimenti,Fotografia,FALSE
+458,Cultura e Società,Giornalismo,TRUE
+459,Arte e Creatività,Letteratura,TRUE
+460,Hobby e Interessi Personali,Geografia,TRUE
+461,Relazioni e Famiglie,Crypto,FALSE
+462,Salute e Benessere,Scienze della terra,FALSE
+463,Arte e Creatività,Politica,FALSE
+464,Cultura e Società,Montagna,TRUE
+465,Salute e Benessere,Anime,TRUE
+466,Tecnologia e Ingegneria,Data Science,TRUE
+467,Hobby e Interessi Personali,Cybersecurity,TRUE
+468,Cultura e Società,Filosofia,TRUE
+469,Tecnologia e Ingegneria,Cybersecurity,TRUE
+470,Finanza e Investimenti,Economia,TRUE
+471,Finanza e Investimenti,Matematica,TRUE
+472,Finanza e Investimenti,Cybersecurity,FALSE
+473,Finanza e Investimenti,Web Design,FALSE
+474,Arte e Creatività,Musica,TRUE
+475,Tecnologia e Ingegneria,Letteratura,FALSE
+476,Hobby e Interessi Personali,Biologia,TRUE
+477,Hobby e Interessi Personali,Giornalismo,TRUE
+478,Cultura e Società,Sport,FALSE
+479,Scienze e Natura,Programmazione,FALSE
+480,Relazioni e Famiglie,Programmazione,FALSE
+481,Cultura e Società,Cucina,TRUE
+482,Hobby e Interessi Personali,Cucina,TRUE
+483,Arte e Creatività,Montagna,FALSE
+484,Salute e Benessere,Intelligenza Artificiale,TRUE
+485,Relazioni e Famiglie,Teatro,TRUE
+486,Finanza e Investimenti,Biologia,FALSE
+487,Cultura e Società,Anime,TRUE
+488,Scienze e Natura,Scienze della terra,TRUE
+489,Cultura e Società,Economia,FALSE
+490,Hobby e Interessi Personali,Teatro,TRUE
+491,Salute e Benessere,Storia,FALSE
+492,Cultura e Società,Storia,TRUE
+493,Arte e Creatività,Anime,TRUE
+494,Scienze e Natura,Web Design,FALSE
+495,Finanza e Investimenti,Cinema,TRUE
+496,Tecnologia e Ingegneria,Cinema,FALSE
+497,Finanza e Investimenti,Politica,TRUE
+498,Salute e Benessere,Web Design,FALSE
+499,Scienze e Natura,Letteratura,FALSE
+500,Scienze e Natura,Cybersecurity,FALSE
