@@ -2,7 +2,7 @@ id_utente,macro_argomento,argomento_spazio,suggerito
 1,Finanza e Investimenti,Economia,TRUE
 2,Tecnologia e Ingegneria,Web Design,TRUE
 3,Hobby e Interessi Personali,Videogiochi,TRUE
-4,Hobby e Interessi Personali,Programmazione,TRUE
+4,Hobby e Interessi Personali,Montagna,TRUE
 5,Arte e Creatività,Filosofia,TRUE
 6,Tecnologia e Ingegneria,Letteratura,FALSE
 7,Scienze e Natura,Cucina,FALSE
@@ -20,7 +20,7 @@ id_utente,macro_argomento,argomento_spazio,suggerito
 19,Hobby e Interessi Personali,Montagna,TRUE
 20,Relazioni e Famiglie,Scienze della terra,FALSE
 21,Tecnologia e Ingegneria,Programmazione,TRUE
-22,Tecnologia e Ingegneria,Musica,TRUE
+22,Tecnologia e Ingegneria,Chitarra,FALSE
 23,Finanza e Investimenti,Musica,FALSE
 24,Relazioni e Famiglie,Economia,FALSE
 25,Cultura e Società,Fisica,FALSE
@@ -51,7 +51,7 @@ id_utente,macro_argomento,argomento_spazio,suggerito
 50,Scienze e Natura,Fotografia,TRUE
 51,Cultura e Società,Scienze della terra,TRUE
 52,Salute e Benessere,Intelligenza Artificiale,FALSE
-53,Scienze e Natura,Programmazione,FALSE
+53,Scienze e Natura,Montagna,TRUE
 54,Relazioni e Famiglie,Scienze della terra,FALSE
 55,Tecnologia e Ingegneria,Anime,FALSE
 56,Relazioni e Famiglie,Programmazione,FALSE
@@ -93,10 +93,10 @@ id_utente,macro_argomento,argomento_spazio,suggerito
 92,Finanza e Investimenti,Montagna,FALSE
 93,Arte e Creatività,Cloud Computing,FALSE
 94,Relazioni e Famiglie,Teatro,TRUE
-95,Finanza e Investimenti,Cucina,FALSE
+95,Relazioni e Famiglie,Cucina,FALSE
 96,Arte e Creatività,Cucina,TRUE
 97,Scienze e Natura,Cloud Computing,FALSE
-98,Finanza e Investimenti,Intelligenza Artificiale,TRUE
+98,Relazioni e Famiglie,Intelligenza Artificiale,FALSE
 99,Scienze e Natura,Intelligenza Artificiale,FALSE
 100,Salute e Benessere,Teatro,FALSE
 101,Tecnologia e Ingegneria,Storia,FALSE
@@ -150,13 +150,13 @@ id_utente,macro_argomento,argomento_spazio,suggerito
 149,Salute e Benessere,Intelligenza Artificiale,FALSE
 150,Hobby e Interessi Personali,Fotografia,TRUE
 151,Hobby e Interessi Personali,Biologia,FALSE
-152,Relazioni e Famiglie,Musica,TRUE
+152,Relazioni e Famiglie,Web Design,FALSE
 153,Tecnologia e Ingegneria,Filosofia,FALSE
 154,Relazioni e Famiglie,Cybersecurity,FALSE
 155,Tecnologia e Ingegneria,Cucina,FALSE
 156,Relazioni e Famiglie,Data Science,FALSE
 157,Finanza e Investimenti,Cinema,TRUE
-158,Finanza e Investimenti,Musica,TRUE
+158,Finanza e Investimenti,Cinema,TRUE
 159,Arte e Creatività,Giornalismo,TRUE
 160,Salute e Benessere,Anime,FALSE
 161,Cultura e Società,Sport,TRUE
@@ -214,7 +214,7 @@ id_utente,macro_argomento,argomento_spazio,suggerito
 213,Tecnologia e Ingegneria,Giornalismo,FALSE
 214,Cultura e Società,Chitarra,TRUE
 215,Cultura e Società,Cucina,TRUE
-216,Hobby e Interessi Personali,Programmazione,TRUE
+216,Hobby e Interessi Personali,Videogiochi,TRUE
 217,Finanza e Investimenti,Data Science,TRUE
 218,Finanza e Investimenti,Intelligenza Artificiale,FALSE
 219,Finanza e Investimenti,Fotografia,TRUE
@@ -262,7 +262,7 @@ id_utente,macro_argomento,argomento_spazio,suggerito
 261,Hobby e Interessi Personali,Geografia,TRUE
 262,Finanza e Investimenti,Anime,FALSE
 263,Salute e Benessere,Matematica,TRUE
-264,Hobby e Interessi Personali,Programmazione,FALSE
+264,Hobby e Interessi Personali,Cinema,TRUE
 265,Salute e Benessere,Cybersecurity,FALSE
 266,Salute e Benessere,Web Design,FALSE
 267,Tecnologia e Ingegneria,Chitarra,FALSE
@@ -272,7 +272,7 @@ id_utente,macro_argomento,argomento_spazio,suggerito
 271,Tecnologia e Ingegneria,Chitarra,FALSE
 272,Finanza e Investimenti,Crypto,TRUE
 273,Scienze e Natura,Musica,TRUE
-274,Cultura e Società,Programmazione,TRUE
+274,Cultura e Società,Programmazione,FALSE
 275,Scienze e Natura,Filosofia,TRUE
 276,Salute e Benessere,Politica,TRUE
 277,Arte e Creatività,Cybersecurity,FALSE
@@ -471,12 +471,12 @@ id_utente,macro_argomento,argomento_spazio,suggerito
 470,Finanza e Investimenti,Economia,TRUE
 471,Finanza e Investimenti,Matematica,TRUE
 472,Finanza e Investimenti,Cybersecurity,FALSE
-473,Finanza e Investimenti,Web Design,FALSE
+473,Relazioni e Famiglie,Web Design,FALSE
 474,Arte e Creatività,Musica,TRUE
 475,Tecnologia e Ingegneria,Letteratura,FALSE
 476,Hobby e Interessi Personali,Biologia,TRUE
 477,Hobby e Interessi Personali,Giornalismo,TRUE
-478,Cultura e Società,Sport,FALSE
+478,Relazioni e Famiglie,Sport,TRUE
 479,Scienze e Natura,Programmazione,FALSE
 480,Relazioni e Famiglie,Programmazione,FALSE
 481,Cultura e Società,Cucina,TRUE
@@ -487,13 +487,13 @@ id_utente,macro_argomento,argomento_spazio,suggerito
 486,Finanza e Investimenti,Biologia,FALSE
 487,Cultura e Società,Anime,TRUE
 488,Scienze e Natura,Scienze della terra,TRUE
-489,Cultura e Società,Economia,FALSE
+489,Relazioni e Famiglie,Economia,FALSE
 490,Hobby e Interessi Personali,Teatro,TRUE
 491,Salute e Benessere,Storia,FALSE
-492,Cultura e Società,Storia,TRUE
+492,Relazioni e Famiglie,Storia,TRUE
 493,Arte e Creatività,Anime,TRUE
 494,Scienze e Natura,Web Design,FALSE
-495,Finanza e Investimenti,Cinema,TRUE
+495,Relazioni e Famiglie,Cinema,TRUE
 496,Tecnologia e Ingegneria,Cinema,FALSE
 497,Finanza e Investimenti,Politica,TRUE
 498,Salute e Benessere,Web Design,FALSE
