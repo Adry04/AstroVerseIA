@@ -1,11 +1,13 @@
 import pandas as pd
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, StratifiedKFold, cross_val_score
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import LabelEncoder, FunctionTransformer
 import joblib
+import matplotlib.pyplot as plt
 from sklearn.compose import ColumnTransformer
-from sklearn.metrics import f1_score, recall_score, accuracy_score, precision_score
+from sklearn.metrics import f1_score, recall_score, accuracy_score, precision_score, confusion_matrix, \
+    ConfusionMatrixDisplay
 
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', 1000)
@@ -42,22 +44,7 @@ model = Pipeline(steps=[
     )),
     ('model', RandomForestClassifier(n_estimators=40, criterion='entropy', max_features='sqrt', random_state=42, class_weight='balanced')),
 ])
-
 model.fit(xtrain, ytrain)
-
-#Evaluation del modello
-new_data = pd.DataFrame(
-    [['Finanza e Investimenti', 'Economia']],
-    columns=['macro_argomento', 'argomento_spazio']
-)
-y_pred = model.predict(xtest)
-
-# Calcolo delle metriche
-print("Stampa delle metriche di valutazione in corso...")
-print(f"Accuracy: {accuracy_score(ytest, y_pred):.4f}")
-print(f"Precision: {precision_score(ytest, y_pred, average='binary'):.4f}")
-print(f"Recall: {recall_score(ytest, y_pred, average='binary'):.4f}")
-print(f"F1 Score: {f1_score(ytest, y_pred, average='binary'):.4f}")
 
 #Importanza delle feature selezionate secondo il criterio di Information Gain
 importances = model.named_steps['model'].feature_importances_
@@ -65,6 +52,69 @@ for feature, importance in zip(x.columns, importances):
     print(f'Importanza {feature}: {importance}')
 selected_features = [feature for feature, importance in zip(x.columns, importances)]
 print(f'Feature selezionate: {selected_features}')
+
+#Evaluation del modello
+new_data = pd.DataFrame(
+    [['Finanza e Investimenti', 'Economia']],
+    columns=['macro_argomento', 'argomento_spazio']
+)
+
+# 10-fold cross-validation
+cv = StratifiedKFold(n_splits=10, shuffle=True, random_state=42)
+
+# Iterazione sui fold
+ytrue = []
+ypred = []
+accuracy_scores = []
+precision_scores = []
+recall_scores = []
+f1_scores = []
+
+for train_idx, test_idx in cv.split(x, y):
+    # Suddivisione dei dati
+    xtrain_fold, xtest_fold = x.iloc[train_idx], x.iloc[test_idx]
+    ytrain_fold, ytest_fold = y[train_idx], y[test_idx]
+
+    # Addestramento del modello
+    model.fit(xtrain_fold, ytrain_fold)
+
+    # Predizione
+    y_pred_fold = model.predict(xtest_fold)
+
+    # Accumula le predizioni e le etichette vere
+    ytrue.extend(ytest_fold)
+    ypred.extend(y_pred_fold)
+
+    # Calcolo delle metriche
+    acc = accuracy_score(ytest_fold, y_pred_fold)
+    prec = precision_score(ytest_fold, y_pred_fold, average='binary')
+    rec = recall_score(ytest_fold, y_pred_fold, average='binary')
+    f1 = f1_score(ytest_fold, y_pred_fold, average='binary')
+
+    # Salvataggio dei risultati
+    accuracy_scores.append(acc)
+    precision_scores.append(prec)
+    recall_scores.append(rec)
+    f1_scores.append(f1)
+
+# Visualizzazione dei risultati per ogni fold
+for i in range(len(accuracy_scores)):
+    print(f"Fold {i + 1}: Accuracy={accuracy_scores[i]:.4f}, Precision={precision_scores[i]:.4f}, Recall={recall_scores[i]:.4f}, F1 Score={f1_scores[i]:.4f}")
+
+#Calcolo della confusion matrix complessiva
+cm = confusion_matrix(ytrue, ypred)
+
+# Calcolo delle metriche medie e relative deviazioni standard
+print("\nMetriche medie e deviazioni standard:")
+print(f"Accuracy: {sum(accuracy_scores)/len(accuracy_scores):.4f} ± {pd.Series(accuracy_scores).std():.4f}")
+print(f"Precision: {sum(precision_scores)/len(precision_scores):.4f} ± {pd.Series(precision_scores).std():.4f}")
+print(f"Recall: {sum(recall_scores)/len(recall_scores):.4f} ± {pd.Series(recall_scores).std():.4f}")
+print(f"F1 Score: {sum(f1_scores)/len(f1_scores):.4f} ± {pd.Series(f1_scores).std():.4f}")
+#Visualizzazione Confusion Matrix Complessiva
+disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=model.named_steps['model'].classes_)
+disp.plot()
+plt.title('Confusion Matrix Complessiva 10-Fold Validation')
+plt.show()
 
 #Esportazione del modello per l'utilizzo api
 joblib.dump(model, 'model.joblib')
