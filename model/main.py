@@ -15,6 +15,9 @@ pd.set_option('display.width', 1000)
 ds = pd.read_csv('social_dataset.csv')
 print(f'Valori nulli presenti:\n {ds.isnull().sum()}')
 
+le_macro_argomento = LabelEncoder()
+le_argomento_spazio = LabelEncoder()
+
 #Normalizzazione dei dati
 def encode_column(df, encoder):
     return encoder.transform(df).reshape(-1, 1)
@@ -22,8 +25,6 @@ def transform_macro_argomento(X):
     return encode_column(X[['macro_argomento']], le_macro_argomento)
 def transform_argomento_spazio(X):
     return encode_column(X[['argomento_spazio']], le_argomento_spazio)
-le_macro_argomento = LabelEncoder()
-le_argomento_spazio = LabelEncoder()
 
 le_macro_argomento.fit(ds['macro_argomento'])
 le_argomento_spazio.fit(ds['argomento_spazio'])
@@ -31,6 +32,7 @@ le_argomento_spazio.fit(ds['argomento_spazio'])
 #Selezione delle feature che il modello deve predire e su cui deve essere addestrato
 x = ds.drop(['suggerito', 'id_utente'], axis='columns')
 y = ds['suggerito'].values.reshape(-1)
+
 #Suddivisione in dati di train e test
 xtrain, xtest, ytrain, ytest = train_test_split(x, y, test_size=0.2)
 
@@ -110,6 +112,7 @@ print(f"Accuracy: {sum(accuracy_scores)/len(accuracy_scores):.4f} ± {pd.Series(
 print(f"Precision: {sum(precision_scores)/len(precision_scores):.4f} ± {pd.Series(precision_scores).std():.4f}")
 print(f"Recall: {sum(recall_scores)/len(recall_scores):.4f} ± {pd.Series(recall_scores).std():.4f}")
 print(f"F1 Score: {sum(f1_scores)/len(f1_scores):.4f} ± {pd.Series(f1_scores).std():.4f}")
+
 #Visualizzazione Confusion Matrix Complessiva
 disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=model.named_steps['model'].classes_)
 disp.plot()
