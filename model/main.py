@@ -30,10 +30,8 @@ model = RandomForestClassifier(n_estimators=40, criterion='entropy', max_feature
 
 model.fit(xtrain, ytrain)
 
-print(f'Score del modello: {model.score(xtest, ytest)}')
-
 new_data = pd.DataFrame(
-    [['Finanza e Investimenti', 'Economia']],
+    [['Relazioni e Famiglie', 'Crypto']],
     columns=['macro_argomento', 'argomento_spazio']
 )
 
@@ -72,7 +70,7 @@ f1_scores = []
 modelCv = model
 
 for train_idx, test_idx in cv.split(x, y):
-    # Suddivisione dei dati
+    # Suddivisione dei dati metodo vecchio
     xtrain_fold, xtest_fold = x.iloc[train_idx], x.iloc[test_idx]
     ytrain_fold, ytest_fold = y[train_idx], y[test_idx]
 
@@ -115,5 +113,5 @@ cm = confusion_matrix(ytrue, ypred)
 #Visualizzazione Confusion Matrix Complessiva
 disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=model.classes_)
 disp.plot()
-plt.title('Confusion Matrix Complessiva 10-Fold Validation')
+plt.title('Confusion Matrix Complessiva 10-Fold Cross-Validation')
 plt.show()
