@@ -18,5 +18,5 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('api/', include('ia_backend.api.urls')),
+    path('api/', include('api.urls')),
 ]
