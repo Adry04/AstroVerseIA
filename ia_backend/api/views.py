@@ -7,9 +7,11 @@ from rest_framework.pagination import PageNumberPagination
 from .models import Space, Preference  # Aggiungi l'importazione di modelli
 from .serializers import SpaceSerializer  # Aggiungi l'importazione del serializer
 import pandas as pd
+import os
+from dotenv import load_dotenv
 
-SECRET_KEY = "VHJ5aGZxk6b43Fg5l3bdz78TzJ6w04UKlGjGh5A0bOY="
-
+load_dotenv()
+SECRET_KEY = os.getenv('SECRET_KEY')
 le_macro_argomento = joblib.load('le_macro_argomento.pkl')
 le_argomento_spazio = joblib.load('le_argomento_spazio.pkl')
 model = joblib.load('model.pkl')
@@ -29,6 +31,7 @@ class GetSpaces(APIView):
         spaces = Space.objects.all()
         selected_spaces = []
         preferences = Preference.objects.filter(user=user_id)
+        serializer = []
         for space in spaces:
             en_spazio_argomento = le_argomento_spazio.transform([space.argument]).reshape(-1, 1)
             for preference in preferences:
@@ -39,10 +42,13 @@ class GetSpaces(APIView):
                 )
                 if model.predict(data):
                     selected_spaces.append(space)
+                    space_serializer = SpaceSerializer(space, context={'consigliato': True})
+                    serializer.append(space_serializer.data)
                     break
         for space in spaces:
             if space not in selected_spaces:
-                selected_spaces.append(space)
+                space_serializer = SpaceSerializer(space, context={'consigliato': False})
+                serializer.append(space_serializer.data)
         paginator = PageNumberPagination()
         paginator.page_size = 30
         request.GET._mutable = True
@@ -50,5 +56,5 @@ class GetSpaces(APIView):
         request.GET._mutable = False
         paginated_spaces = paginator.paginate_queryset(selected_spaces, request, request)
         total_pages = (len(selected_spaces) + paginator.page_size - 1) // paginator.page_size
-        serializer = SpaceSerializer(paginated_spaces, many=True)
-        return Response({'spaces': serializer.data, 'numberOfPages': total_pages}, status=status.HTTP_200_OK)
+
+        return Response({'spaces': serializer, 'numberOfPages': total_pages}, status=status.HTTP_200_OK)
