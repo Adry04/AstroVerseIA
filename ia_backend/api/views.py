@@ -40,6 +40,9 @@ class GetSpaces(APIView):
                 if model.predict(data):
                     selected_spaces.append(space)
                     break
+        for space in spaces:
+            if space not in selected_spaces:
+                selected_spaces.append(space)
         paginator = PageNumberPagination()
         paginator.page_size = 30
         request.GET._mutable = True
