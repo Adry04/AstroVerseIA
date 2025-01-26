@@ -26,7 +26,7 @@ y = ds.suggerito
 #Suddivisione in dati di train e test
 xtrain, xtest, ytrain, ytest = train_test_split(x, y, test_size=0.2)
 
-model = RandomForestClassifier(n_estimators=40, criterion='entropy', max_features='sqrt', random_state=42, class_weight='balanced')
+model = RandomForestClassifier(n_estimators=40, criterion='entropy', max_features=None, random_state=42, class_weight='balanced')
 
 model.fit(xtrain, ytrain)
 
