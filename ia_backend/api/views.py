@@ -4,7 +4,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.pagination import PageNumberPagination
-from .models import Space, Preference  # Aggiungi l'importazione di modelli
+from .models import Space, Preference, UserSpace  # Aggiungi l'importazione di modelli
 from .serializers import SpaceSerializer  # Aggiungi l'importazione del serializer
 import pandas as pd
 import os
@@ -28,7 +28,8 @@ class GetSpaces(APIView):
         except jwt.DecodeError:
             return Response({'error': 'Token non valido'}, status=status.HTTP_401_UNAUTHORIZED)
         user_id = decoded_token['id']
-        spaces = Space.objects.all()
+        excluded_space_ids = UserSpace.objects.filter(user_id=user_id).values_list('space_id', flat=True)
+        spaces = Space.objects.exclude(id__in=excluded_space_ids)
         selected_spaces = []
         preferences = Preference.objects.filter(user=user_id)
         serializer = []
